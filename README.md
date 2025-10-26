@@ -60,12 +60,22 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Activate the virtual environment (if not already activated):
+1. Register the virtual environment as a Jupyter kernel:
+```bash
+source cgm-env/bin/activate
+python -m ipykernel install --user --name=cgm-env --display-name "Python (cgm-env)"
+```
+
+2. Activate the virtual environment (if not already activated):
 ```bash
 source cgm-env/bin/activate
 ```
 
-2. Open `S1-Phase1.ipynb` in Jupyter Notebook to run the analysis:
+3. Launch Jupyter Notebook:
 ```bash
 jupyter notebook
 ```
+
+4. **IMPORTANT**: In your notebook, select the `cgm-env` kernel:
+   - In Jupyter: Kernel → Change Kernel → Python (cgm-env)
+   - This ensures sklearn and other packages will work correctly
