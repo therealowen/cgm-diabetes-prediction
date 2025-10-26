@@ -45,12 +45,12 @@ cd cgm-diabetes-prediction
 
 2. Create a virtual environment:
 ```bash
-python3 -m venv venv
+python3 -m venv cgm-env
 ```
 
 3. Activate the virtual environment:
 ```bash
-source venv/bin/activate  # On macOS/Linux
+source cgm-env/bin/activate  # On macOS/Linux
 ```
 
 4. Install required packages:
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 1. Activate the virtual environment (if not already activated):
 ```bash
-source venv/bin/activate
+source cgm-env/bin/activate
 ```
 
 2. Open `S1-Phase1.ipynb` in Jupyter Notebook to run the analysis:

@@ -11,12 +11,7 @@ __pycache__/
 .Python
 env/
 venv/
-ENV/
-.venv
-
-# Virtual Environment
-venv/
-env/
+cgm-env/
 ENV/
 .venv
 
