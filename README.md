@@ -35,12 +35,37 @@ This work is based on the research paper:
 > 
 > [PLOS ONE Publication](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0225817)
 
-## Requirements
+## Installation
 
+1. Clone this repository:
 ```bash
-pip install pandas numpy scikit-learn tensorflow keras
+git clone https://github.com/therealowen/cgm-diabetes-prediction.git
+cd cgm-diabetes-prediction
+```
+
+2. Create a virtual environment:
+```bash
+python3 -m venv venv
+```
+
+3. Activate the virtual environment:
+```bash
+source venv/bin/activate  # On macOS/Linux
+```
+
+4. Install required packages:
+```bash
+pip install -r requirements.txt
 ```
 
 ## Usage
 
-Open `S1-Phase1.ipynb` in Jupyter Notebook to run the analysis.
+1. Activate the virtual environment (if not already activated):
+```bash
+source venv/bin/activate
+```
+
+2. Open `S1-Phase1.ipynb` in Jupyter Notebook to run the analysis:
+```bash
+jupyter notebook
+```
