@@ -1,0 +1,34 @@
+# OS files
+.DS_Store
+*.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data processing temporary files
+*.tmp
+*.temp
+
+# Mac specific
+.AppleDouble
+.LSOverride
