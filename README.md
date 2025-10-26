@@ -44,7 +44,3 @@ pip install pandas numpy scikit-learn tensorflow keras
 ## Usage
 
 Open `S1-Phase1.ipynb` in Jupyter Notebook to run the analysis.
-
-## License
-
-[Add your license here]
